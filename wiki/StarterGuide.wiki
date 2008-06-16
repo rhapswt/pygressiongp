@@ -1,0 +1,18 @@
+#summary Start here to know what is all about.
+#labels Phase-Design,Phase-Support
+
+= PyGression GP =
+
+  * == Rationale: Why are we doing this? ==
+
+  * == What is Symbolic Regression? ==
+
+  * == What is Evolutionary Computation? ==
+
+  * == What does Symbolic Regression have to do with Evolutionary Computation? ==
+
+  * == Design Concerns ==
+
+  * == Example of use ==
+
+  * == To Do ==
