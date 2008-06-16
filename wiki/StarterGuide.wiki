@@ -11,7 +11,7 @@
 
   * == What does Symbolic Regression have to do with Evolutionary Computation? ==
 
-  * == Design Concerns ==
+  * == Design Overview ==
 
   * == Example of use ==
 
