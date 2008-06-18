@@ -1,4 +1,4 @@
-#summary How are we doing this
+#summary How are we doing this?
 #labels Phase-Design,Phase-Implementation
 
 Here will be an explanation about the design and implementation of the project
