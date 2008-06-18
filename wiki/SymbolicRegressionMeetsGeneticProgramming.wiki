@@ -1,0 +1,4 @@
+#summary Symbolic Regression seen by a Genetic Programming point of view
+#labels Phase-Requirements
+
+Here will be an explanation about why is symbolic regression suitable for a genetic programming approach
