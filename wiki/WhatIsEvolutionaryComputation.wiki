@@ -11,4 +11,10 @@ Evolutionary algorithms model natural processes, such as selection, recombinatio
 == Implementation of biological processes ==
 Usually, an initial population of randomly generated candidate solutions comprise the first generation. The fitness function is applied to the candidate solutions and any subsequent offspring.  In selection, parents for the next generation are chosen with a bias towards higher fitness. The parents reproduce by copying with recombination and/or mutation. Recombination acts on the two selected parents (candidates) and results in one or two children (new candidates). Mutation acts on one candidate and results in a new candidate. These operators create the offspring (a set of new candidates). These new candidates compete with old candidates for their place in the next generation. This process can be repeated until a candidate with sufficient quality (a solution) is found or a previously determined computational limit is reached.
 
-== Evolutionary algorithm techniques ==
+== Evolutionary algorihm techniques ==
+Similar techniques differ in the implementation details and the nature of the particular applied problem.
+
+    * *Genetic algorithm* - One seeks the solution of a problem in the form of strings of numbers (traditionally binary, although the best representations are usually those that reflect something about the problem being solved - these are not normally binary), virtually always applying recombination operators in addition to selection and mutation. This type of EA is often used in optimization problems;
+    * *Genetic programming* - Here the solutions are in the form of computer programs, and their fitness is determined by their ability to solve a computational problem.
+    * *Evolutionary programming* - Like genetic programming, only the structure of the program is fixed and its numerical parameters are allowed to evolve;
+    * *Evolution strategy* - Works with vectors of real numbers as representations of solutions, and typically uses self-adaptive mutation rates;
