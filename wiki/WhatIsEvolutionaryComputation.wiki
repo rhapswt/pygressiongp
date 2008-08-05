@@ -15,9 +15,9 @@ Usually, an initial population of randomly generated candidate solutions compris
 == Evolutionary algorihm techniques ==
 Similar techniques differ in the implementation details and the nature of the particular applied problem.
 
-    * *Genetic algorithm* - One seeks the solution of a problem in the form of strings of numbers (traditionally binary, although the best representations are usually those that reflect something about the problem being solved - these are not normally binary), virtually always applying recombination operators in addition to selection and mutation. This type of EA is often used in optimization problems;
+    * *Genetic algorithm* - One seeks the solution of a problem in the form of strings of numbers virtually always applying recombination operators in addition to selection and mutation.
     * *Genetic programming* - Here the solutions are in the form of computer programs, and their fitness is determined by their ability to solve a computational problem.
-    * *Evolutionary programming* - Like genetic programming, only the structure of the program is fixed and its numerical parameters are allowed to evolve;
-    * *Evolution strategy* - Works with vectors of real numbers as representations of solutions, and typically uses self-adaptive mutation rates;
+    * *Evolutionary programming* - Like genetic programming, only the structure of the program is fixed and its numerical parameters are allowed to evolve.
+    * *Evolution strategy* - Works with vectors of real numbers as representations of solutions, and typically uses self-adaptive mutation rates.
 
 == References ==
