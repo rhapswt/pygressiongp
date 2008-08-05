@@ -21,3 +21,6 @@ Similar techniques differ in the implementation details and the nature of the pa
     * *Evolution strategy* - Works with vectors of real numbers as representations of solutions, and typically uses self-adaptive mutation rates.
 
 == References ==
+  * http://en.wikipedia.org/wiki/Evolutionary_computation
+  * http://en.wikipedia.org/wiki/Evolutionary_algorithm
+  * http://www.geatbx.com/docu/algindex-01.html
