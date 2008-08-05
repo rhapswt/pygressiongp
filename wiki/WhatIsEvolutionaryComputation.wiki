@@ -12,7 +12,7 @@ Evolutionary algorithms model natural processes, such as selection, recombinatio
 == Implementation of biological processes ==
 Usually, an initial population of randomly generated candidate solutions comprise the first generation. The fitness function is applied to the candidate solutions and any subsequent offspring.  In selection, parents for the next generation are chosen with a bias towards higher fitness. The parents reproduce by copying with recombination and/or mutation. Recombination acts on the two selected parents (candidates) and results in one or two children (new candidates). Mutation acts on one candidate and results in a new candidate. These operators create the offspring (a set of new candidates). These new candidates compete with old candidates for their place in the next generation. This process can be repeated until a candidate with sufficient quality (a solution) is found or a previously determined computational limit is reached.
 
-== Evolutionary algorihm techniques ==
+== Evolutionary algorithm techniques ==
 Similar techniques differ in the implementation details and the nature of the particular applied problem.
 
     * *Genetic algorithm* - One seeks the solution of a problem in the form of strings of numbers virtually always applying recombination operators in addition to selection and mutation.
